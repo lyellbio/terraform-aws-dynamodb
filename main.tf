@@ -1,3 +1,7 @@
+terraform {
+  experiments = [variable_validation]
+}
+
 locals {
   enabled = module.this.enabled
 
